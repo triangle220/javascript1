@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="blacktheme">
+    <button class="button" onclick="
+    document.getElementById('blacktheme').style.backgroundColor = 'rgb(29, 29, 29)';
+    document.getElementById('blacktheme').style.color = 'white';
+    " ondblclick="
+    document.getElementById('blacktheme').style.backgroundColor = 'white';
+    document.getElementById('blacktheme').style.color = 'black';
+    ">Черная тема</button>
+    <div id="first1">Я лох</div>
+    <div id="first2">Я лох1</div>
+    <div id="first3">Я лох2</div>
+    <div id="first4">Я лох3</div>
+    <br>
+    <button onclick="
+    document.getElementById('first1').style.backgroundColor = 'orange';
+    document.getElementById('first1').style.width = '100%';
+    "
+    ondblclick="
+    document.getElementById('first1').style.backgroundColor = 'red';
+    document.getElementById('first1').style.width = '300px';
+    ">first1</button>
+    <button
+    onclick="
+    let div = document.getElementById('first2');
+    div.innerHTML = 'Я лох1';
+    alert(div.innerHTML);
+    ">first2</button>
+    <button
+    onclick="
+    let ok = prompt('Ты лох?')
+    document.getElementById('first3').innerHTML = ok
+    ">first3</button>
+    <button
+    onclick="
+    document.getElementById('first4').style.width = '100%';
+    let div = document.getElementById('first4');
+    div.innerHTML = 'Я лох3';
+    alert(div.innerHTML);
+    let ok = prompt('Ты лох?');
+    document.getElementById('first4').innerHTML = ok;
+    document.getElementById('first4').style.backgroundImage = 'url(img2.jpg)'
+    ">first4</button>
+    <br>
+    <b id="blacktheme">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non nostrum optio fugiat magni ea error nobis! 
+        Voluptatibus, dignissimos quae? Temporibus distinctio voluptas maiores culpa reiciendis possimus aliquam id voluptatibus iusto.</b>
+</body>
+</html>

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#blacktheme {
+    transition: 1s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button {
+    width: 100px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 10px;
+}
+#first1 {
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    transition: 3s;
+    color: white;
+}
+#first2 {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(70, 47, 175);
+    color: white;
+}
+#first3 {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(74, 15, 129);
+    color: white;
+}
+#first4 {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(119, 163, 38);
+    color: white;
+    transition: 2s;
+    background-size: cover;
+}
